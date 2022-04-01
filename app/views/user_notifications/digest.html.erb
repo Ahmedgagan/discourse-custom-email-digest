@@ -139,7 +139,7 @@
     <tr>
       <%- if show_image_with_url(t.image_url) && t.featured_link.nil? && !(@excerpts[t.first_post&.id]||"").include?(t.image_url) -%>
         <td colspan="2" align="center">
-          <img src="<%= url_for_email(t.image_url) -%>" height="500" style="margin:auto;max-height:500px;max-width:100%;outline:0;text-decoration:none;margin-top:10px;" alt="topic image">
+          <img src="<%= url_for_email(t.image_url) -%>" height="400" style="margin:auto;max-height:400px;max-width:100%;outline:0;text-decoration:none;margin-top:10px;" alt="topic image">
         </td>
       <%- end -%>
     </tr>
