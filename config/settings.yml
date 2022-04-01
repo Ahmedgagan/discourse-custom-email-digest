@@ -1,0 +1,5 @@
+discourse_custom_email_digest:
+  discourse_custom_email_digest_enabled:
+    default: true
+    client: true
+  
